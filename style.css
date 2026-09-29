@@ -1,0 +1,221 @@
+/* =========================
+   RESET
+========================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* =========================
+   BODY
+========================= */
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background:
+        radial-gradient(circle at center, #0b2e1a, #020805 70%);
+
+    color: #00ff66;
+
+    font-family: "Courier New", monospace;
+
+    padding: 20px;
+}
+
+
+/* =========================
+   MAIN CONTAINER
+========================= */
+
+.container {
+    width: 400px;
+
+    padding: 35px;
+
+    background: rgba(0, 10, 5, 0.9);
+
+    border: 1px solid #00ff66;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 0 10px rgba(0, 255, 102, 0.5),
+        0 0 30px rgba(0, 255, 102, 0.2);
+
+    text-align: center;
+}
+
+
+/* =========================
+   TITLE
+========================= */
+
+h1 {
+    margin-bottom: 20px;
+
+    font-size: 25px;
+
+    color: #00ff66;
+
+    text-shadow:
+        0 0 5px #00ff66,
+        0 0 15px #00ff66;
+
+    letter-spacing: 2px;
+}
+
+
+/* =========================
+   TERMINAL TEXT
+========================= */
+
+.terminal-text {
+    margin-bottom: 25px;
+
+    color: #00cc55;
+
+    font-size: 14px;
+
+    text-align: left;
+}
+
+
+/* =========================
+   LABEL
+========================= */
+
+label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: #00ff66;
+
+    font-weight: bold;
+
+    text-align: left;
+}
+
+
+/* =========================
+   PASSWORD INPUT
+========================= */
+
+input {
+    width: 100%;
+
+    padding: 14px;
+
+    margin-bottom: 20px;
+
+    background: #010501;
+
+    border: 1px solid #00ff66;
+
+    border-radius: 6px;
+
+    color: #00ff66;
+
+    font-family: "Courier New", monospace;
+
+    font-size: 16px;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+
+/* PLACEHOLDER */
+
+input::placeholder {
+    color: #347a4d;
+}
+
+
+/* INPUT FOCUS */
+
+input:focus {
+    border-color: #00ff66;
+
+    box-shadow:
+        0 0 8px #00ff66,
+        0 0 20px rgba(0, 255, 102, 0.3);
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+button {
+    width: 100%;
+
+    padding: 14px;
+
+    background: transparent;
+
+    border: 1px solid #00ff66;
+
+    border-radius: 6px;
+
+    color: #00ff66;
+
+    font-family: "Courier New", monospace;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+/* BUTTON HOVER */
+
+button:hover {
+    background: #00ff66;
+
+    color: #020805;
+
+    box-shadow:
+        0 0 10px #00ff66,
+        0 0 25px #00ff66;
+}
+
+
+/* BUTTON CLICK */
+
+button:active {
+    transform: scale(0.97);
+}
+
+
+/* =========================
+   RESULT MESSAGE
+========================= */
+
+#message {
+    min-height: 30px;
+
+    margin-top: 25px;
+
+    color: #00ff66;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    text-shadow:
+        0 0 5px #34495e;
+}
